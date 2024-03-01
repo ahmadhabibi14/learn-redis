@@ -1,12 +1,13 @@
 ```bash
+# Activate redis server
+redis-server config/redis.conf
+
+# Connect to redis server via CLI
+redis-cli -h localhost -p 6379
+
+# Select Database
 SELECT 0
 
-SET nama "Ahmad"
-GET nama
-EXISTS nama
-APPEND nama " Rizky"
-GET nama
-DEL nama
-
+# Retrieve all keys
 KEYS *
 ```

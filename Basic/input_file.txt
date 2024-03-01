@@ -1,0 +1,5 @@
+SET habi "Ahmad Rizky Nusantara Habibi"
+SET downy "Lalu Doni Setiawan"
+SET dian "Ahmad Muhardian Lasmita"
+SET ruby "Rubiatun Isnaini"
+SET rido "Ridwan Hadi"
