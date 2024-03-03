@@ -22,7 +22,7 @@ user habi on +@all ~* >habi12345678
 ```
 
 ```bash
-redis-cli -h 192.168.162.21 -p 637
+redis-cli -h 192.168.162.21 -p 6379
 
 # AUTH <user> <password>
 AUTH habi habi12345678
