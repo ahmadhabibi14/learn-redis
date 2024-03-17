@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis
+    container_name: learnredis-db
+    ports:
+      - 127.0.0.1:6379:6379
+    expose:
+      - 6379
+    networks:
+      - learnredis
+    volumes:
+      - ./_docker-data/redis:/data
+      - ./config/redis.conf:/usr/local/etc/redis/redis.conf
+networks:
+  learnredis:
