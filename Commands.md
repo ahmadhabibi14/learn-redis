@@ -10,6 +10,8 @@ SELECT 0
 
 # Retrieve all keys
 KEYS *
+
+TYPE key_name
 ```
 
 ### Troubleshoot:
